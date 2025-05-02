@@ -21,7 +21,7 @@ This project simulates a traffic light system using the **STM32F407 Discovery** 
 ## ⚙️ Timer2 Configuration
 
 Timer2 is initialized with:
-```
+```c
 htim2.Init.Prescaler = 1599;
 htim2.Init.Period = 99;
 ```
